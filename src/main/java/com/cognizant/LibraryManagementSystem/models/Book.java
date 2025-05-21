@@ -20,7 +20,7 @@ public class Book {
     private String isbn;
 
     @CreationTimestamp
-    @Column(name = "published_date")
+    @Column(name = "published_date", nullable = false)
     private String publishedDate;
 
     public Integer getId() {
